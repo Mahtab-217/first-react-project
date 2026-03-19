@@ -1,5 +1,26 @@
 import StudenList from "./Student-list";
 import "./style.css";
+import Teachers from "./Teachers";
+const TeachersList=[
+  {
+     id:1,
+    name: "Ali",
+    lastName: "Sarwari",
+    age: 30,
+  },
+  {
+     id:2,
+    name: "Ali Reza",
+    lastName: "Qasimi",
+    age: 32,
+  },
+  {
+     id:3,
+    name: "Ali Aqa",
+    lastName: "Ahmadi",
+    age: 25,
+  },
+];
 const list=[
   {
     id:1,
@@ -34,5 +55,6 @@ export default function App(){
         <button>Save</button>
       </nav>
       <StudenList stList={list}/>
+      <Teachers tList={TeachersList}/>
      </div>;
 }
