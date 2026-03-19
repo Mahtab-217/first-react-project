@@ -19,3 +19,15 @@ nav button{
     padding: 5px 14px;
 
 }
+.parent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    padding: 12px;
+}
+.box{
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
