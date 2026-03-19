@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 8px 12px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+nav h1{
+    font-size: 30px;
+}
+nav button{
+    padding: 5px 14px;
+
+}

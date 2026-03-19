@@ -1,10 +1,9 @@
-import Header from "./Header";
-import Hero from "./Hero";
-
+import "./style.css";
 export default function App(){
-  return <div>
-    <h1>Hello World</h1>
-    <Header/>
-    <Hero/>
-  </div>
+     return   <div>
+      <nav>
+        <h1>My app</h1>
+        <button>Save</button>
+      </nav>
+     </div>;
 }
