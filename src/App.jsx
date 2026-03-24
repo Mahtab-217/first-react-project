@@ -2,6 +2,17 @@ import Manager from "./Manager";
 import StudenList from "./Student-list";
 import "./style.css";
 import Teachers from "./Teachers";
+const managerList=[
+  {
+     id:1,
+     name: "Essa",
+     lastName: "Ehsani",
+     age: 45,
+     phoneNumber: "0798678594",
+     degree: "Deploma",
+     Adress: "Hotqol, Jaghori, Ghazni",
+}
+]
 const TeachersList=[
   {
      id:1,
