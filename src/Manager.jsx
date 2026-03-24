@@ -6,10 +6,11 @@ export default function ManagerList(props){
            {props.MList.map((person)=>(
               <div className="box"  key={person.id}>
                 <h1>{person.name}</h1>
-                <span>{person.lastName}</span>
-                <span>{person.age}</span>
-                <span>{person.adress}</span>
-                <span>{person.phoneNumber}</span>
+                <h5>{person.lastName}</h5>
+                <h5>{person.age}</h5>
+                <h5>{person.adress}</h5>
+                <h5>{person.phoneNumber}</h5>
+                <h5>{person.degree}</h5>
               </div>
            ))}
         </div>

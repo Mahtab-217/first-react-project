@@ -11,7 +11,34 @@ const managerList=[
      phoneNumber: "0798678594",
      degree: "Deploma",
      Adress: "Hotqol, Jaghori, Ghazni",
-}
+},
+  {
+     id:2,
+     name: "Mahmood",
+     lastName: "Qambari",
+     age: 40,
+     phoneNumber: "0798897634",
+     degree: "Deploma",
+     Adress: "Hotqol, Jaghori, Ghazni",
+},
+  {
+     id:3,
+     name: "Muhammad",
+     lastName: "Hasami",
+     age: 35,
+     phoneNumber: "07986789767",
+     degree: "Deploma",
+     Adress: "Hotqol, Jaghori, Ghazni",
+},
+  {
+     id:4,
+     name: "Raha",
+     lastName: "Yawari",
+     age: 25,
+     phoneNumber: "0798678594",
+     degree: "Deploma",
+     Adress: "Hotqol, Jaghori, Ghazni",
+},
 ]
 const TeachersList=[
   {
