@@ -1,3 +1,4 @@
+import Manager from "./Manager";
 import StudenList from "./Student-list";
 import "./style.css";
 import Teachers from "./Teachers";
@@ -21,6 +22,7 @@ const TeachersList=[
     age: 25,
   },
 ];
+
 const list=[
   {
     id:1,
@@ -56,5 +58,6 @@ export default function App(){
       </nav>
       <StudenList stList={list}/>
       <Teachers tList={TeachersList}/>
+      <Manager/>
      </div>;
 }
