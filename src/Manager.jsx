@@ -2,7 +2,9 @@ import "./style.css"
 export default function ManagerList(props){
     return (
         <div className="parent">
-            
+            <h1>
+                Manager's List
+            </h1>
            {props.MList.map((person)=>(
               <div className="box"  key={person.id}>
                 <h1>{person.name}</h1>
