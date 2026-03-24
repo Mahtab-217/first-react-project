@@ -69,6 +69,6 @@ export default function App(){
       </nav>
       <StudenList stList={list}/>
       <Teachers tList={TeachersList}/>
-      <Manager/>
+      <Manager MList={managerList}/>
      </div>;
 }
