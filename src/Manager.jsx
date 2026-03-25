@@ -14,6 +14,8 @@ export default function ManagerList(props){
                 <h5>{person.phoneNumber}</h5>
                 <h5>{person.degree}</h5>
               </div>
+
+              
            ))}
         </div>
     )
